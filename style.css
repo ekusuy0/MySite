@@ -159,7 +159,7 @@ section p {
   margin-bottom: 10px;
 }
 
-#feature {
+#feature, #contact {
   padding: 90px 0;
   text-align: center;
   margin: 0;
@@ -224,4 +224,37 @@ section p {
   font-size: 16px;
   color: #000000;
   margin-bottom: 20px;
+}
+
+.contact-content {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contact-item {
+  width: 400px;
+}
+
+.contact-item h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  margin-bottom: 20px;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin: 20px;
+}
+
+.size {
+  font-size: 50px;
 }

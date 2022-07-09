@@ -65,10 +65,11 @@ a {
   margin-top: 10px;
 }
 
-#portfolio {
+#portfolio, #profile {
   background-color: #ECEFF1;
   padding: 90px 0;
   text-align: center;
+  margin: 0;
 }
 
 soction h1 {
@@ -161,6 +162,7 @@ section p {
 #feature {
   padding: 90px 0;
   text-align: center;
+  margin: 0;
 }
 
 .feature-content {
@@ -191,4 +193,35 @@ section p {
 
 .feature-content > div:nth-child(3) {
   margin-right: 10px;
+}
+
+.profile-content {
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.profile-item {
+  width: 512px;
+  text-align: left;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.profile-item h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-item p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
 }

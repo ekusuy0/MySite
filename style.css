@@ -40,11 +40,14 @@ a {
   margin: 0 30px;
 }
 
-.main-visual {
+#main-visual {
   width: 100%;
   height: 650px;
   background-image: url(img/mv.png);
-  padding-top: 220px;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding-top: 200px;
 }
 
 .main-visual-text {
@@ -96,6 +99,61 @@ section p {
 }
 
 .list-box {
+  margin-right: 10px;
+}
+
+.image1 {
   width: 300px;
   height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image4 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image6 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.list-wrap > div:nth-child(3), div:nth-child(6) {
+  margin-right: 0px;
+}
+
+.list-wrap > div:nth-child(1),div:nth-child(2), div:nth-child(3) {
+  margin-bottom: 10px;
 }

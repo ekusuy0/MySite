@@ -235,6 +235,7 @@ section p {
 
 .contact-item {
   width: 400px;
+
 }
 
 .contact-item h2 {
@@ -246,9 +247,20 @@ section p {
   margin-bottom: 20px;
 }
 
+.contact-item a {
+  color: #000000;
+}
+
 .icon-item {
   display: flex;
   justify-content: center;
+}
+
+.contact-box {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
 }
 
 .icon {

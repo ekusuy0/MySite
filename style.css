@@ -155,7 +155,7 @@ section p {
   margin-right: 0px;
 }
 
-.list-wrap > div:nth-child(1),div:nth-child(2), div:nth-child(3) {
+.list-wrap > div:nth-child(1), div:nth-child(2), div:nth-child(3) {
   margin-bottom: 10px;
 }
 
@@ -192,7 +192,7 @@ section p {
 }
 
 .feature-content > div:nth-child(3) {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .profile-content {
@@ -252,7 +252,7 @@ section p {
   color: #000000;
 }
 
-.icon-item {
+.app-icon-item {
   display: flex;
   justify-content: center;
 }
@@ -263,12 +263,16 @@ section p {
   margin: 0 auto;
 }
 
-.icon {
-  margin: 20px;
+.app-icon {
+  margin-right: 20px;
 }
 
-.size {
+.app-size {
   font-size: 50px;
+}
+
+.app-icon-item > div:nth-child(3) {
+  margin-right: 0;
 }
 
 footer {
@@ -283,3 +287,263 @@ footer p {
   color: #FAFAFA;
   line-height: 60px;
 }
+
+@media screen and (max-width: 767px) {
+
+  header {
+    height: 50px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .nav-list {
+    width: 90%;
+    height: 50px;
+    position: relative;
+  }
+
+  .nav-list-item {
+    display: none;
+  }
+
+  #hm-icon {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    margin-right: 0;
+  }
+
+  .menu-trigger,
+  .menu-trigger span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+  }
+
+  .menu-trigger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FAFAFA;
+  }
+
+  .menu-trigger span {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 4px;
+    background-color: #FAFAFA;
+  }
+
+  .menu-trigger span:nth-child(1) {
+    top: 5px;
+  }
+
+  .menu-trigger span:nth-child(2) {
+    top: 17px;
+  }
+
+  .menu-trigger span:nth-child(3) {
+    bottom: 5px;
+  }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #main-visual {
+    background-image: url(img/code.png);
+  }
+
+  .main-visual-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-visual-text h1 {
+    font-size: 40px;
+  }
+
+  .main-visual-text p {
+    font-size: 18px;
+  }
+
+  .list-wrap {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .list-box {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    width: 300px;
+    height: 250px;
+    background-image: url(img/websuku.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .image3 {
+    display: none;
+  }
+
+  .image4 {
+    width: 300px;
+    height: 250px;
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .image5 {
+    display: none;
+  }
+
+  .image6 {
+    width: 300px;
+    height: 250px;
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .list-wrap > div:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  .list-wrap > div:nth-child(1),div:nth-child(2), div:nth-child(3) {
+    margin-bottom: 0px;
+  }
+
+  .list-wrap > div:nth-child(2){
+    margin-bottom: 10px;
+  }
+
+  .feature-content {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .feature-item {
+    width: 320px;
+    margin-right: 0px;
+    margin: 0 auto;
+  }
+
+  .feature-item p {
+    margin: 10px auto;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  .size {
+    font-size: 60px;
+  }
+
+  .feature-content > div:nth-child(3) {
+    margin: 0 auto;
+  }
+
+  .feature-content > div:nth-child(3) p {
+    margin-bottom: 0;
+  }
+
+  .profile-content {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .profile-item {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    background-image: url(img/my-icon.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .profile-item h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .profile-item p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+  }
+
+  .contact-content {
+    width: 90%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .contact-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .app-icon-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-box {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .app-icon {
+    margin-right: 8px;
+  }
+
+  .app-size {
+    font-size: 50px;
+  }
+
+  .app-icon-item > div:nth-child(3) {
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
